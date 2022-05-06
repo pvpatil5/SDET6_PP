@@ -2,16 +2,38 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-06T05:50:56Z" name="Default suite" finished-at="2022-05-06T05:51:00Z" duration-ms="3109">
+<<<<<<< HEAD
+  <suite started-at="2022-05-06T05:58:22Z" name="Default suite" finished-at="2022-05-06T05:58:28Z" duration-ms="5774">
+=======
+<<<<<<< HEAD
+  <suite started-at="2022-05-06T05:51:20Z" name="Default suite" finished-at="2022-05-06T05:51:20Z" duration-ms="73">
     <groups>
     </groups>
-    <test started-at="2022-05-06T05:50:56Z" name="Default test" finished-at="2022-05-06T05:51:00Z" duration-ms="3109">
-      <class name="com.github.pac.Anusha">
-        <test-method signature="myntra()[pri:0, instance:com.github.pac.Anusha@181e731e]" started-at="2022-05-06T05:50:56Z" name="myntra" finished-at="2022-05-06T05:51:00Z" duration-ms="3093" status="PASS">
+    <test started-at="2022-05-06T05:51:20Z" name="Default test" finished-at="2022-05-06T05:51:20Z" duration-ms="73">
+      <class name="com.github.pac.Srikkanth08">
+        <test-method signature="srikkanth08()[pri:0, instance:com.github.pac.Srikkanth08@4082ba93]" started-at="2022-05-06T05:51:20Z" name="srikkanth08" finished-at="2022-05-06T05:51:20Z" duration-ms="20" status="PASS">
           <reporter-output>
           </reporter-output>
+        </test-method> <!-- srikkanth08 -->
+      </class> <!-- com.github.pac.Srikkanth08 -->
+=======
+  <suite started-at="2022-05-06T05:50:56Z" name="Default suite" finished-at="2022-05-06T05:51:00Z" duration-ms="3109">
+>>>>>>> branch 'master' of https://github.com/pvpatil5/SDET6_PP.git
+    <groups>
+    </groups>
+    <test started-at="2022-05-06T05:58:22Z" name="Default test" finished-at="2022-05-06T05:58:28Z" duration-ms="5774">
+      <class name="com.github.pac.Simple">
+        <test-method signature="amazon()[pri:0, instance:com.github.pac.Simple@36cda2c2]" started-at="2022-05-06T05:58:22Z" name="amazon" finished-at="2022-05-06T05:58:28Z" duration-ms="5757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+<<<<<<< HEAD
+        </test-method> <!-- amazon -->
+      </class> <!-- com.github.pac.Simple -->
+=======
         </test-method> <!-- myntra -->
       </class> <!-- com.github.pac.Anusha -->
+>>>>>>> branch 'master' of https://github.com/pvpatil5/SDET6_PP.git
+>>>>>>> branch 'master' of https://github.com/pvpatil5/SDET6_PP.git
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
