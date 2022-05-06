@@ -6,18 +6,12 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class Facebook {
-
+public class AMAZON {
 	@Test
-	public void facebooktitle() {
+	public void amazon() {
 		WebDriverManager.chromedriver().setup();
 		WebDriver	driver = new ChromeDriver();
-		driver.get("https://facebook.com");
-
+		driver.get("http://amazon.in");
 		System.out.println(driver.getTitle());
-
-		System.out.println(driver.getCurrentUrl());
-
-
 	}
 }
