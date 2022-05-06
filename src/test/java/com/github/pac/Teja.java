@@ -6,18 +6,19 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class Simple {
-
+public class Teja {
+	
 	@Test
-	public void amazon() {
+	public void facebooktitle() {
 		WebDriverManager.chromedriver().setup();
 		WebDriver	driver = new ChromeDriver();
-		driver.get("https://www.flipkart.com/");
+		driver.get("https://facebook.com");
+
 		System.out.println(driver.getTitle());
+
 		System.out.println(driver.getCurrentUrl());
 
 
 	}
 }
-
 
